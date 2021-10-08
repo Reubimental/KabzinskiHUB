@@ -18,7 +18,7 @@ vector<int> bestXofN(int x, int n, int faces);
 int sumOfDice(vector<int> dice);
 
 int main() {
-
+	// Adding a very important comment
 	srand(time(NULL));
 
 	vector<int> stats = {};
