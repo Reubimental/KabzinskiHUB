@@ -19,6 +19,7 @@ int sumOfDice(vector<int> dice);
 
 int main() {
 	// Adding a very important comment
+
 	srand(time(NULL));
 
 	vector<int> stats = {};
@@ -47,6 +48,9 @@ int main() {
 /* 
 	Returns an intiger between 1 and the number of faces (inclusive)
 */
+int cunt() {
+	return 69;
+}
 int statDice(int faces) {
 	int value = rand() % faces + 1;
 
